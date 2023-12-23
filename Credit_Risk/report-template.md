@@ -16,14 +16,20 @@ loan_status is the predictions.
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 
 Value Counts 
-original data:
-0    75036
-1     2500
 
-oversampled:
+Original data:
 
-0    56271
-1    56271
+Healthy loans (`0`)    ---- >   75036
+
+High risk loans (`1`)    ---- >     2500
+
+
+
+Oversampled:
+
+Healthy loans (`0`)    ---- >    56271
+
+High risk loans (`1`)    ---- >    56271
 
 * Describe the stages of the machine learning process you went through as part of this analysis.
 
